@@ -1,0 +1,103 @@
+{% extends 'starter-page.html' %}
+{% load static %}
+<br><br><br><br><br>
+{% block body %}
+    <br><br><br>
+
+ <!-- Carousel -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+  <!-- Indicators/dots -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+  </div>
+
+  <!-- The slideshow/carousel -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="{% static 'assets/img/peel2.jpg' %}" alt=" " class="d-block w-100" height="700">
+        <div class="carousel-caption">
+    <h3 style="color: #0a58ca" class="text-info-emphasis">Kuhama</h3>
+    <p>Je unafikiria kutoka pahali uko kuhamia mahali panapo faa zaidi<br>lakini unashindwa utaanzia wapii..!<br>Hapa Kuhama tunakusaidia kuhamia mahali tofauti humu nchini na ata nje ya nchi!</p>
+  </div>
+
+    </div>
+    <div class="carousel-item">
+      <img src="{% static 'assets/img/pexels-shvets-production-7203788.jpg' %}" alt=" " class="d-block w-100" height="700">
+        <div class="carousel-caption">
+    <h3 style="color: #0a58ca">Kuhama</h3>
+    <p>Je unafikiria kutoka pahali uko kuhamia mahali panapo faa zaidi<br>lakini unashindwa utaanzia wapii..!<br>Hapa Kuhama tunakusaidia kuhamia mahali tofauti humu nchini na ata nje ya nchi!</p>
+  </div>
+    </div>
+    <div class="carousel-item">
+      <img src="{% static 'assets/img/rell.jpg' %}" alt=" " class="d-block w-100" height="700">
+        <div class="carousel-caption">
+    <h3 style="color: #0a58ca">Kuhama</h3>
+    <p>Je unafikiria kutoka pahali uko kuhamia mahali panapo faa zaidi<br>lakini unashindwa utaanzia wapii..!<br>Hapa Kuhama tunakusaidia kuhamia mahali tofauti humu nchini na ata nje ya nchi!</p>
+  </div>
+    </div>
+  </div>
+
+  <!-- Left and right controls/icons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+
+<h1 style="text-align: center">Kuhama Relocation</h1>
+        <p class="m-3">Your trusted partner for a seamless move to your new home.</p>
+
+    <section class="intro">
+        <h2>Welcome to Kuhama Relocation</h2>
+        <p class="m-3">At Kuhama, we understand how important your home is. Whether you're moving to a new city, country, or simply changing homes, we are here to ensure your relocation is smooth, stress-free, and hassle-free.</p>
+    </section>
+
+    <section class="image-gallery">
+        <h2>Relocating with Ease</h2>
+        <p class="m-3">Our team of experts helps African families relocate to their dream homes, no matter the distance.</p>
+        <div class="images">
+            <div class="image-item">
+                
+                <p class="m-3">Families relocating with care and professionalism</p>
+            </div>
+            <div class="image-item">
+                <img src=" " alt="" />
+                <p class="m-4">Preparing for a fresh start in a new home</p>
+            </div>
+            <div class="image-item">
+                <img src="" alt="" />
+                <p class="m-3">Settling into your new home, one step at a time</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="call-to-action">
+        <h2>Ready to Move?</h2>
+        <p class="m-3">Contact Kuhama today to start your relocation journey. Our team is ready to assist with everything from packing to moving into your new home.</p>
+        <a href="" class="cta-button btn btn-outline-primary m-4" >Get Started</a>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{% endblock %}
